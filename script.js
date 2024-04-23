@@ -126,10 +126,13 @@ calculate.addEventListener("click", function(){
     cgpa = (sgpa + previousSgpa) / 2;
   }
 
+sgpa = sgpa.toFixed(3);
+cgpa = cgpa.toFixed(3);
+
 
   resultsDiv.innerHTML = ` Results <br><br><br> Marks: ${marks} <br><br> Credit Points: ${cp} <br><br> Grade Points: ${gp} <br><br> 
   Total GPA Points: ${totalPoints} <br><br> Total Obtained GPA Points: ${totalObtainedPoints} <br><br><br><br> 
-  Total Marks: ${100 * numberOfSubjects} <br><br> Total Marks: ${totalMarks} <br><br> Percentage: ${percentage} <br><br> SGPA for ${semester} Semester: ${sgpa} <br><br>
+  Total Marks: ${100 * numberOfSubjects} <br><br> Total Marks Obtained: ${totalMarks} <br><br> Percentage: ${percentage} <br><br> SGPA for ${semester} Semester: ${sgpa} <br><br>
   CGPA: ${cgpa}`;
   
 });
