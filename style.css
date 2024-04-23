@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html {
+    overflow: hidden;
+    box-shadow: 0 0 0 0.4rem rgb(0, 169, 199, 0.7);
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #333;
+    overflow-x: hidden;
+    background-image: linear-gradient(to right top, #429860, #00a085, #00a6a9, #00a9c7, #34aadc, #48b1e5, #59b8ef, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    
+}
+
+/* CARD */
+.card {
+    width: 100%; 
+    height: auto; 
+}
+
+
+.gpa-card {
+    max-width: 500px; 
+    width: 100%; 
+    height: auto; 
+    padding: 30px 70px;
+    margin: 40px auto;
+    /* box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.05); */
+    box-shadow: 10px 10px 50px 10px rgba(255, 255, 255, 0.5);
+    border-radius: 9px;
+    border: 2px solid #fff;
+    background-color: transparent blur(70px);
+}
+
+
+.gpa-card-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.message-div{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.results-div{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 40px auto;
+    text-align: start;
+}
+
+.results-div p{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 40px auto;
+    text-align: start;
+}
+
+.results-div h2{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.previous-sgpa, .semester, .number-of-subjects, .input-marks, .next,
+.subjects-cp-inputs, .subjects-m-inputs{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.previous-sgpa-label, .semester-label, .number-of-subjects-label,
+.subject-marks-label, .subject-credit-points-label{
+    font-size: 21px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 30px;
+    line-height: 1.5;
+
+}
+
+.previous-sgpa-input,
+.semester-input,
+.number-of-subjects-input,
+.subject-credit-points-input,
+.subject-marks-input{
+    margin-top: 4px;
+    width: 98%;
+    height: 35px;
+    border: 1px solid #333;
+    padding-left: 5px;
+    border-radius: 8px;
+
+    text-align: start;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.2s all;
+    background-color: #fdf2e9;
+    border: none;
+}
+
+.previous-sgpa-input:focus, 
+.semester-input:focus,
+.number-of-subjects-input:focus,
+.subject-credit-points-input:focus,
+.subject-marks-input:focus {
+    border: 4px solid rgb(0, 169, 199, 0.7);
+
+}
+
+.input-marks,
+.calculate,
+.next{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 35px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+    padding: 12px 24px;
+    background-color: #071e10;
+    border-radius: 9px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+.input-marks:hover,
+.calculate:hover ,
+.next:hover {
+    background-color: #fff;
+    color: #555;
+}
+
+
+.hidden{
+    display: none;
+}
+
+
+.calculate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer{
+    margin: 50px 30px 30px 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+
+@media(max-width: 417px){
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+    .hidden {
+        display: none !important; 
+      }
+
+    .gpa-card {
+        
+        width: 100% !important;
+        height: auto;
+    }
+
+    .gpa-card-title{
+        font-size: 22px;
+    }
+
+    .message-div{
+        font-size: 18px;
+    }
+
+    .results-div{
+        font-size: 18px;
+        margin-left: -20%;
+    }
+
+    .previous-sgpa-label, .semester-label, .number-of-subjects-label,
+    .subject-marks-label, .subject-credit-points-label{
+        font-size: 18px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 40px;
+        line-height: 1.5;
+
+    
+    }
+
+    .previous-sgpa-input,
+    .semester-input,
+    .number-of-subjects-input,
+    .subject-credit-points-input,
+    .subject-marks-input{
+        font-size: 14px;
+
+    }
+
+    .previous-sgpa-label, .semester-label, .number-of-subjects-label{
+        margin-left: -15%;
+    
+    }
+
+    .previous-sgpa-input,
+    .semester-input,
+    .number-of-subjects-input{
+        margin-left: -15%;
+        width: 125%;
+    }
+
+    .semester{
+        margin-left: 0;
+    }
+
+    /* .semester input{
+        /* width: 115%; */
+
+    .subjects-cp-inputs,
+    .subjects-m-inputs{
+        margin-left: -20%;
+    }
+
+    .subjects-cp-inputs input,
+    .subjects-m-inputs input{
+        width: 115%;
+    }
+
+
+}
