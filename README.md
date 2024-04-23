@@ -24,6 +24,9 @@ Contributions are welcome! If you have any suggestions, improvements, or feature
 
 ## Developer 
 
-This incredible project was crafted with passion and dedication by Mohammad Armaan, the proud owner of this creation. Let's appreciate the effort and ingenuity behind this innovative tool! 👏✨
+## Developer
 
+This incredible project was crafted with passion and dedication by [Mohammad Armaan](https://github.com/MohammadArmaan), the proud owner of this creation. Let's appreciate the effort and ingenuity behind this innovative tool! 👏✨
+
+Check out the website [SGPA and CGPA Calculator](https://mohammadarmaan.github.io/SGPA-and-CGPA-Calculator/)
 
