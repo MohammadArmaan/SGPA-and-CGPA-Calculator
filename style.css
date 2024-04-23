@@ -173,6 +173,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: end;
+    font-size: 14px;
 }
 
 
@@ -259,6 +260,118 @@ body {
     .subjects-cp-inputs input,
     .subjects-m-inputs input{
         width: 115%;
+    }
+
+
+}
+
+@media(max-width: 283px){
+
+    .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        width: 90%;
+        margin-left: 5%;
+    }
+
+
+    .hidden {
+        display: none !important; 
+      }
+
+    .gpa-card {
+        
+        width: 100% !important;
+        height: auto;
+    }
+
+    .gpa-card-title{
+        font-size: 14px;
+    }
+
+    .message-div{
+        font-size: 12px;
+    }
+
+    .results-div{
+        font-size: 12px;
+        margin-left: -20%;
+    }
+
+    .previous-sgpa-label, .semester-label, .number-of-subjects-label,
+    .subject-marks-label, .subject-credit-points-label{
+        font-size: 12px;
+        font-weight: 500;
+        color: #fff;
+        margin-top: 40px;
+        line-height: 1.5;
+
+    
+    }
+
+    .previous-sgpa-input,
+    .semester-input,
+    .number-of-subjects-input,
+    .subject-credit-points-input,
+    .subject-marks-input{
+        font-size: 7px;
+
+    }
+
+    .previous-sgpa-label, .semester-label, .number-of-subjects-label{
+        margin-left: -45%;
+    
+    }
+
+    .previous-sgpa-input,
+    .semester-input,
+    .number-of-subjects-input{
+        margin-left: -45%;
+        width: 180%;
+    }
+
+    .semester{
+        margin-left: 0;
+    }
+
+    /* .semester input{
+        /* width: 115%; */
+
+    .subjects-cp-inputs,
+    .subjects-m-inputs{
+        margin-left: -20%;
+    }
+
+    .subjects-cp-inputs input,
+    .subjects-m-inputs input{
+        width: 115%;
+    }
+
+    .input-marks,
+    .calculate,
+    .next{
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 35px;
+    text-align: center;
+    width: 200%;
+    display: flex;
+    margin-left: -50%;
+    align-items: center;
+    
+    padding: 12px 24px;
+    background-color: #071e10;
+    border-radius: 9px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s all;
+}
+
+    .footer{
+        font-size: 7px;
     }
 
 
