@@ -265,7 +265,7 @@ body {
 
 }
 
-@media(max-width: 350px){
+@media(max-width: 375px){
 
     .card{
         display: flex;
