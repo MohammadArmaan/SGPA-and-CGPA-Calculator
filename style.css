@@ -265,7 +265,7 @@ body {
 
 }
 
-@media(max-width: 283px){
+@media(max-width: 350px){
 
     .card{
         display: flex;
@@ -352,23 +352,23 @@ body {
     .input-marks,
     .calculate,
     .next{
-    font-size: 14px;
-    font-weight: 600;
-    margin-top: 35px;
-    text-align: center;
-    width: 200%;
-    display: flex;
-    margin-left: -50%;
-    align-items: center;
-    
-    padding: 12px 24px;
-    background-color: #071e10;
-    border-radius: 9px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    transition: 0.2s all;
-}
+        font-size: 14px;
+        font-weight: 600;
+        margin-top: 35px;
+        text-align: center;
+        width: 200%;
+        display: flex;
+        margin-left: -50%;
+        align-items: center;
+        
+        padding: 12px 24px;
+        background-color: #071e10;
+        border-radius: 9px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        transition: 0.2s all;
+    }
 
     .footer{
         font-size: 7px;
