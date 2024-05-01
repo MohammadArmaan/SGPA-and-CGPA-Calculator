@@ -22,7 +22,6 @@ To use the SGPA and CGPA Calculator, simply open the website link in your web br
 
 Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or submit a pull request.
 
-## Developer 
 
 ## Developer
 
